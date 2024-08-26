@@ -2,27 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIAppFonts</key>
-	<array>
-		<string>AntDesign.ttf</string>
-		<string>Entypo.ttf</string>
-		<string>EvilIcons.ttf</string>
-		<string>Feather.ttf</string>
-		<string>FontAwesome.ttf</string>
-		<string>FontAwesome5_Brands.ttf</string>
-		<string>FontAwesome5_Regular.ttf</string>
-		<string>FontAwesome5_Solid.ttf</string>
-		<string>FontAwesome6_Brands.ttf</string>
-		<string>FontAwesome6_Regular.ttf</string>
-		<string>FontAwesome6_Solid.ttf</string>
-		<string>Fontisto.ttf</string>
-		<string>Foundation.ttf</string>
-		<string>Ionicons.ttf</string>
-		<string>MaterialCommunityIcons.ttf</string>
-		<string>MaterialIcons.ttf</string>
-		<string>Octicons.ttf</string>
-		<string>SimpleLineIcons.ttf</string>
-	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -50,12 +29,72 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>This app requires access to your music library to play songs.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>This app uses Bluetooth to connect to external devices.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>This app uses Bluetooth to connect to external devices.</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>This app needs access to your calendar to schedule events.</string>
+	<key>NSCalendarsWriteOnlyAccessUsageDescription</key>
+	<string>This app needs write-only access to your calendar to schedule events.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This app needs access to your camera to take photos.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>This app needs access to your contacts to share content with them.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>This app uses Face ID for secure login.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app needs your location to provide personalized services.</string>
+	<key>NSLocationTemporaryUsageDescriptionDictionary</key>
+	<dict>
+		<key>TemporaryLocation</key>
+		<string>This app needs temporary access to your location for a specific task.</string>
+	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string>This app needs access to your location while it's in use.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>microphone </string>
+	<key>NSMotionUsageDescription</key>
+	<string>This app needs access to your device's motion sensors for gameplay.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>This app needs permission to save photos to your library.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Allow access to the photo library for selecting images</string>
-	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen</string>
+	<string>This app needs access to your photos to let you choose profile pictures.</string>
+	<key>NSRemindersFullAccessUsageDescription</key>
+	<string>This app needs access to your reminders to set new ones.</string>
+	<key>NSSiriUsageDescription</key>
+	<string>This app uses Siri for voice commands.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>This app uses speech recognition for voice commands.</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>This app tracks user activity to provide personalized services.</string>
+
+	<key>NSCalendarsUsageDescription</key>
+<string>This app needs access to your calendar to schedule and manage events.</string>
+
+	<key>UIAppFonts</key>
+	<array>
+		<string>AntDesign.ttf</string>
+		<string>Entypo.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>Feather.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>FontAwesome5_Brands.ttf</string>
+		<string>FontAwesome5_Regular.ttf</string>
+		<string>FontAwesome5_Solid.ttf</string>
+		<string>FontAwesome6_Brands.ttf</string>
+		<string>FontAwesome6_Regular.ttf</string>
+		<string>FontAwesome6_Solid.ttf</string>
+		<string>Fontisto.ttf</string>
+		<string>Foundation.ttf</string>
+		<string>Ionicons.ttf</string>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>Octicons.ttf</string>
+		<string>SimpleLineIcons.ttf</string>
+	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
